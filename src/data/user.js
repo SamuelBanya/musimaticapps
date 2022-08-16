@@ -35,7 +35,7 @@ const user = {
         "Web app that obtains a list of movie monsters from a 'db.json' based database via 'json-server'",
       technologies: ["JS (Vanilla)"],
       repoLink: "https://github.com/SamuelBanya/phase-1-monsters",
-      demoLink: "https://samuelbanya.github.io/phase-1-monsters/",
+      demoLink: "https://phase-1-monsters.netlify.app/",
     },
     {
       id: 4,
@@ -44,8 +44,7 @@ const user = {
       technologies: ["JS (Vanilla)"],
       repoLink:
         "https://github.com/SamuelBanya/phase-1-javascript-quotes-practice",
-      demoLink:
-        "https://samuelbanya.github.io/phase-1-javascript-quotes-practice/",
+      demoLink: "https://phase-1-javascript-quotes-practice.netlify.app/",
     },
     {
       id: 5,
@@ -53,7 +52,7 @@ const user = {
       about: "Web app that allows you to rate plates of various ramen dishes",
       technologies: ["JS (Vanilla)"],
       repoLink: "https://github.com/SamuelBanya/phase-1-mock-cc-ramen-rater",
-      demoLink: "https://samuelbanya.github.io/phase-1-mock-cc-ramen-rater/",
+      demoLink: "https://ramen-rater.netlify.app/",
     },
     {
       id: 6,
@@ -62,10 +61,68 @@ const user = {
         "My Phase 1 project for Flatiron School Software Bootcamp that allows you to view various cat breeds",
       technologies: ["JS (Vanilla)"],
       repoLink: "https://github.com/SamuelBanya/Meowser",
-      demoLink: "https://samuelbanya.github.io/Meowser/meowser.html",
+      demoLink: "https://meowser.netlify.app/",
     },
     {
       id: 7,
+      name: "Gregslist",
+      about:
+        "A React app that is modeled after a popular public goods trading website",
+      technologies: ["React"],
+      repoLink:
+        "https://github.com/SamuelBanya/react-hooks-mock-code-challenge-gregslist",
+      demoLink: "https://gregslist-sambanya.netlify.app/",
+    },
+    {
+      id: 8,
+      name: "Plantshop",
+      about:
+        "A React app that showcases a plant store with a filterable search",
+      technologies: ["React"],
+      repoLink:
+        "https://github.com/SamuelBanya/react-hooks-mock-code-challenge-plantshop",
+      demoLink: "https://plantshop-sambanya.netlify.app/",
+    },
+    {
+      id: 9,
+      name: "Sushi Saga",
+      about:
+        "A React app that showcases a sushi restaurant with a variety of sushi to order from",
+      technologies: ["React"],
+      repoLink:
+        "https://github.com/SamuelBanya/react-hooks-practice-sushi-saga",
+      demoLink: "https://sushi-saga.netlify.app/",
+    },
+    {
+      id: 10,
+      name: "Toy Tales",
+      about:
+        "A React app that showcases classic Toy Story characters with the ability to fetch toys, and to donate them with related fetch() API calls",
+      technologies: ["React"],
+      repoLink: "https://github.com/SamuelBanya/react-hooks-practice-toy-tales",
+      demoLink: "https://toy-tales.netlify.app/",
+    },
+    {
+      id: 11,
+      name: "Pokemon Searcher",
+      about:
+        "A React app that allows users to search and view info for various Pokemon including their name, sprite, HP with additional filter options",
+      technologies: ["React"],
+      repoLink:
+        "https://github.com/SamuelBanya/react-hooks-practice-pokemon-searcher",
+      demoLink: "https://pokemon-searcher-sambanya.netlify.app/",
+    },
+    {
+      id: 12,
+      name: "Stocks",
+      about:
+        "A React app that displays stock prices with price and name filters",
+      technologies: ["React"],
+      repoLink: "https://github.com/SamuelBanya/react-hooks-practice-stocks",
+      demoLink: "https://stocks-sambanya.netlify.app/",
+    },
+    {
+      id: 13,
       name: "Back To The Drawing Board",
       about:
         "70's and 80's inspired comic book artist style drawing board web app that allows you to upload images to use as image references for creating art",
@@ -75,7 +132,7 @@ const user = {
         "https://apps.musimatic.xyz/pythonprojectwebsites/Bandcamper/tags.html",
     },
     {
-      id: 8,
+      id: 14,
       name: "Bandcamper",
       about:
         "Python 3 based web app that scrapes data from the Bandcamp.com website to allow the user to search bands by genre and location in a simpler way than even on the Bandcamp site itself",
@@ -85,7 +142,7 @@ const user = {
         "https://apps.musimatic.xyz/pythonprojectwebsites/Bandcamper/tags.html",
     },
     {
-      id: 9,
+      id: 15,
       name: "Scripture Of The Day",
       about:
         "Web app based upon a CronTab job that generates a random King James Version of the Bible scripture of the day, and displays it on a webpage by using the 'KJV' command line utility.",
@@ -95,7 +152,7 @@ const user = {
         "https://apps.musimatic.xyz/pythonprojectwebsites/ScriptureOfTheDay/output.html",
     },
     {
-      id: 10,
+      id: 16,
       name: "Collar",
       about:
         "Bootstrap CSS based parody dating website that showcases several high-profile white collar ex-con celebrities",
@@ -104,7 +161,7 @@ const user = {
       demoLink: "https://apps.musimatic.xyz/BootstrapSites/Collar/index.html",
     },
     {
-      id: 11,
+      id: 17,
       name: "Emulation Nation",
       about:
         "Bootstrap CSS website that discusses the topic of emulators throughout their history and their use today",
@@ -113,7 +170,7 @@ const user = {
       demoLink: "./BootstrapSites/EmulationNation/index.html",
     },
     {
-      id: 12,
+      id: 18,
       name: "Garfield Zone",
       about:
         'Bootstrap CSS website that that discusses the comic, "Garfield", created by the one and only Jim Davis',
@@ -123,7 +180,7 @@ const user = {
         "https://apps.musimatic.xyz/BootstrapSites/GarfieldZone/index.html",
     },
     {
-      id: 13,
+      id: 19,
       name: "PageCeption",
       about:
         'Bootstrap CSS website that showcases Chapter 8 in both the "HTML & CSS: Design and Build Websites" and "JavaScript & JQuery: Interactive Front - end Web Development " books as well as play around with iFrame tags',
@@ -132,7 +189,7 @@ const user = {
       demoLink: "./BootstrapSites/PageCeption/index.html",
     },
     {
-      id: 14,
+      id: 20,
       name: "Sector T",
       about:
         "Bootstrap CSS website that discusses the topic of text editors throughout their history, and the popular ones used today",
@@ -141,7 +198,7 @@ const user = {
       demoLink: "https://apps.musimatic.xyz/BootstrapSites/SectorT/index.html",
     },
     {
-      id: 15,
+      id: 21,
       name: "Slings",
       about: "Parody website for a night club for stay-at-home dads",
       technologies: ["HTML5"],
@@ -149,7 +206,7 @@ const user = {
       demoLink: "https://apps.musimatic.xyz/BootstrapSites/Slings/index.html",
     },
     {
-      id: 16,
+      id: 22,
       name: "Synth City",
       about:
         "Bootstrap CSS website that discusses the topic of synthesizers and their role in past and present music today",
@@ -159,7 +216,7 @@ const user = {
         "https://apps.musimatic.xyz/BootstrapSites/SynthCity/index.html",
     },
     {
-      id: 17,
+      id: 23,
       name: "The History Of MS Paint",
       about: "Website that discusses the history of MS Paint",
       technologies: ["HTML5"],
@@ -168,7 +225,7 @@ const user = {
         "https://apps.musimatic.xyz/BootstrapSites/TheHistoryOfMSPaint/index.html",
     },
     {
-      id: 18,
+      id: 24,
       name: "Visit Monaco",
       about:
         "Bootstrap website about the second smallest country in the world, Monaco",
@@ -178,7 +235,7 @@ const user = {
         "https://apps.musimatic.xyz/BootstrapSites/VisitMonaco/index.html",
     },
     {
-      id: 19,
+      id: 25,
       name: "Webring",
       about:
         "Webring website created from an Emacs Org Mode doc that contains interesting websites",
@@ -187,7 +244,7 @@ const user = {
       demoLink: "https://apps.musimatic.xyz/webring.html",
     },
     {
-      id: 20,
+      id: 26,
       name: "Main Dish Recipes",
       about:
         "Recipes websites built from an Emacs Org Mode doc that contains great main dish recipes",
@@ -196,7 +253,7 @@ const user = {
       demoLink: "https://apps.musimatic.xyz/maindishrecipes.html",
     },
     {
-      id: 21,
+      id: 27,
       name: "Dessert Recipes",
       about:
         "Dessert recipes website built from an Emacs Org Mode doc that contains great dessert recipes",
