@@ -11,60 +11,15 @@ const user = {
   projects: [
     {
       id: 1,
-      name: "GitHub Searcher",
+      name: "Back To The Drawing Board",
       about:
-        "An app that allows the user to search for GitHub profiles and related projects",
-      technologies: ["JS (Vanilla)"],
-      repoLink: "https://github.com/SamuelBanya/GitHubSearcher",
-      demoLink:
-        "https://apps.musimatic.xyz/jsprojectwebsites/GitHubSearcher/index.html",
+        "70's and 80's inspired comic book artist style drawing board web app that allows you to upload images to use as image references for creating art",
+      technologies: ["React", "JS (Vanilla)"],
+      repoLink: "https://github.com/SamuelBanya/BackToTheDrawingBoard",
+      demoLink: "https://backtothedrawingboard.netlify.app/",
     },
     {
       id: 2,
-      name: "Simple Liker",
-      about:
-        "Simple app that allows the user to like a user's comment which then sends a response to the app's server",
-      technologies: ["JS (Vanilla)"],
-      repoLink: "https://github.com/SamuelBanya/phase-1-building-simple-liker",
-      demoLink: "https://samuelbanya.github.io/phase-1-building-simple-liker/",
-    },
-    {
-      id: 3,
-      name: "Monsters",
-      about:
-        "Web app that obtains a list of movie monsters from a 'db.json' based database via 'json-server'",
-      technologies: ["JS (Vanilla)"],
-      repoLink: "https://github.com/SamuelBanya/phase-1-monsters",
-      demoLink: "https://phase-1-monsters.netlify.app/",
-    },
-    {
-      id: 4,
-      name: "JavaScript Quotes",
-      about: "Web app that displays a list of quotes",
-      technologies: ["JS (Vanilla)"],
-      repoLink:
-        "https://github.com/SamuelBanya/phase-1-javascript-quotes-practice",
-      demoLink: "https://phase-1-javascript-quotes-practice.netlify.app/",
-    },
-    {
-      id: 5,
-      name: "Ramen Rater",
-      about: "Web app that allows you to rate plates of various ramen dishes",
-      technologies: ["JS (Vanilla)"],
-      repoLink: "https://github.com/SamuelBanya/phase-1-mock-cc-ramen-rater",
-      demoLink: "https://ramen-rater.netlify.app/",
-    },
-    {
-      id: 6,
-      name: "Meowser",
-      about:
-        "My Phase 1 project for Flatiron School Software Bootcamp that allows you to view various cat breeds",
-      technologies: ["JS (Vanilla)"],
-      repoLink: "https://github.com/SamuelBanya/Meowser",
-      demoLink: "https://meowser.netlify.app/",
-    },
-    {
-      id: 7,
       name: "Gregslist",
       about:
         "A React app that is modeled after a popular public goods trading website",
@@ -74,7 +29,7 @@ const user = {
       demoLink: "https://gregslist-sambanya.netlify.app/",
     },
     {
-      id: 8,
+      id: 3,
       name: "Plantshop",
       about:
         "A React app that showcases a plant store with a filterable search",
@@ -84,7 +39,7 @@ const user = {
       demoLink: "https://plantshop-sambanya.netlify.app/",
     },
     {
-      id: 9,
+      id: 4,
       name: "Sushi Saga",
       about:
         "A React app that showcases a sushi restaurant with a variety of sushi to order from",
@@ -94,7 +49,7 @@ const user = {
       demoLink: "https://sushi-saga.netlify.app/",
     },
     {
-      id: 10,
+      id: 5,
       name: "Toy Tales",
       about:
         "A React app that showcases classic Toy Story characters with the ability to fetch toys, and to donate them with related fetch() API calls",
@@ -103,7 +58,7 @@ const user = {
       demoLink: "https://toy-tales.netlify.app/",
     },
     {
-      id: 11,
+      id: 6,
       name: "Pokemon Searcher",
       about:
         "A React app that allows users to search and view info for various Pokemon including their name, sprite, HP with additional filter options",
@@ -113,7 +68,7 @@ const user = {
       demoLink: "https://pokemon-searcher-sambanya.netlify.app/",
     },
     {
-      id: 12,
+      id: 7,
       name: "Stocks",
       about:
         "A React app that displays stock prices with price and name filters",
@@ -122,13 +77,58 @@ const user = {
       demoLink: "https://stocks-sambanya.netlify.app/",
     },
     {
-      id: 13,
-      name: "Back To The Drawing Board",
+      id: 8,
+      name: "Meowser",
       about:
-        "70's and 80's inspired comic book artist style drawing board web app that allows you to upload images to use as image references for creating art",
-      technologies: ["React", "JS (Vanilla)"],
-      repoLink: "https://github.com/SamuelBanya/BackToTheDrawingBoard",
-      demoLink: "https://backtothedrawingboard.netlify.app/",
+        "My Phase 1 project for Flatiron School Software Bootcamp that allows you to view various cat breeds",
+      technologies: ["JS (Vanilla)"],
+      repoLink: "https://github.com/SamuelBanya/Meowser",
+      demoLink: "https://meowser.netlify.app/",
+    },
+    {
+      id: 9,
+      name: "GitHub Searcher",
+      about:
+        "An app that allows the user to search for GitHub profiles and related projects",
+      technologies: ["JS (Vanilla)"],
+      repoLink: "https://github.com/SamuelBanya/GitHubSearcher",
+      demoLink:
+        "https://apps.musimatic.xyz/jsprojectwebsites/GitHubSearcher/index.html",
+    },
+    {
+      id: 10,
+      name: "Simple Liker",
+      about:
+        "Simple app that allows the user to like a user's comment which then sends a response to the app's server",
+      technologies: ["JS (Vanilla)"],
+      repoLink: "https://github.com/SamuelBanya/phase-1-building-simple-liker",
+      demoLink: "https://samuelbanya.github.io/phase-1-building-simple-liker/",
+    },
+    {
+      id: 11,
+      name: "Monsters",
+      about:
+        "Web app that obtains a list of movie monsters from a 'db.json' based database via 'json-server'",
+      technologies: ["JS (Vanilla)"],
+      repoLink: "https://github.com/SamuelBanya/phase-1-monsters",
+      demoLink: "https://phase-1-monsters.netlify.app/",
+    },
+    {
+      id: 12,
+      name: "JavaScript Quotes",
+      about: "Web app that displays a list of quotes",
+      technologies: ["JS (Vanilla)"],
+      repoLink:
+        "https://github.com/SamuelBanya/phase-1-javascript-quotes-practice",
+      demoLink: "https://phase-1-javascript-quotes-practice.netlify.app/",
+    },
+    {
+      id: 13,
+      name: "Ramen Rater",
+      about: "Web app that allows you to rate plates of various ramen dishes",
+      technologies: ["JS (Vanilla)"],
+      repoLink: "https://github.com/SamuelBanya/phase-1-mock-cc-ramen-rater",
+      demoLink: "https://ramen-rater.netlify.app/",
     },
     {
       id: 14,
