@@ -36,7 +36,7 @@ const user = {
       technologies: ["React", "Ruby", "Sinatra", "JS (Vanilla)"],
       repoLink: "https://github.com/SamuelBanya/SmoothMoves",
       demoLink: "",
-    }
+    },
     {
       id: 4,
       name: "Back To The Drawing Board",
