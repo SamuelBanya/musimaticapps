@@ -26,8 +26,7 @@ const user = {
         "A Full Stack web application made with React and Ruby On Rails that allows a user to plan and schedule a cookout with friends!",
       technologies: ["React", "Ruby On Rails", "PostgreSQL", "JS (Vanilla)"],
       repoLink: "https://github.com/SamuelBanya/CraigsCookout",
-      demoLink: "https://craigscookoutapp.onrender.com/",
-
+      demoLink: "",
     },
     {
       id: 3,
