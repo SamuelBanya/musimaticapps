@@ -18,7 +18,7 @@ const user = {
       repoLink: "https://github.com/SamuelBanya/PartyPlanner",
       demoLink: "https://party-planner.onrender.com/",
 
-    }
+    },
     {
       id: 2,
       name: "Craig's Cookout",
@@ -28,7 +28,7 @@ const user = {
       repoLink: "https://github.com/SamuelBanya/CraigsCookout",
       demoLink: "https://craigscookoutapp.onrender.com/",
 
-    }
+    },
     {
       id: 3,
       name: "Back To The Drawing Board",
